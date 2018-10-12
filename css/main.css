@@ -21,11 +21,13 @@ h1 {
   color: #990073;
   transform: rotate(-8deg);
   margin-left: -15px;
+  text-shadow: 1px 1px 1px;
 }
 
-p, a{
+p, a {
   text-decoration: none;
   color: #c09;
+  text-shadow: 1px 1px 1px;
 }
 
 p {
@@ -33,11 +35,11 @@ p {
 }
 
 .btn-ghost {
-  border-color: #990073
+  border-color: #990073;
 }
 
 .btn-ghost:hover {
-  border-color: #990073
+  border-color: #990073;
 }
 
 .text-box {
@@ -65,37 +67,6 @@ p {
 
 }
 
-.cherry {
-  bottom: -183px;
-  right: 35px;
-  transform: scale(.7);
-  z-index: 3;
-  animation: ;
-}
-
-.vanilla-fudge {
-  bottom: -262px;
-  right: 38px;
-  transform: scale(.7);
-  z-index: 2;
-  animation: ;
-}
-
-.chocolate-chip {
-  bottom: -335px;
-  right: 28px;
-  transform: scale(.7);
-  z-index: 1;
-  animation: ;
-}
-
-.mint-chip {
-  bottom: -423px;
-  right: 35px;
-  transform: scale(.7);
-  animation: ;
-}
-
 .cone {
   bottom: -525px;
   right: 35px;
@@ -103,10 +74,97 @@ p {
   animation: cone-drop 500ms forwards linear;
 }
 
-@keyframes  cone-drop {
+.mint-chip {
+  bottom: -423px;
+  right: 35px;
+  transform: scale(.7);
+  animation: mint-drop 500ms forwards linear 500ms;
+}
+
+.chocolate-chip {
+  bottom: -335px;
+  right: 28px;
+  transform: scale(.7);
+  z-index: 1;
+  animation: chocolate-drop 500ms forwards linear 1000ms;
+}
+
+.vanilla-fudge {
+  bottom: -262px;
+  right: 38px;
+  transform: scale(.7);
+  z-index: 2;
+  animation: vanilla-drop 500ms forwards linear 1500ms;
+}
+
+.cherry {
+  bottom: -183px;
+  right: 35px;
+  transform: scale(.7);
+  z-index: 3;
+  animation: cherry-drop 500ms forwards linear 2000ms;
+}
+
+@keyframes cherry-drop {
 
   0% {
-    bottom: 100%;
+    bottom: 0%;
+    filter: opacity(0);
+  }
+
+  100% {
+    bottom: -183px;
+    filter: opacity(1);
+  }
+
+}
+
+@keyframes vanilla-drop {
+
+  0% {
+    bottom: 0%;
+    filter: opacity(0);
+  }
+
+  100% {
+    bottom: -262px;
+    filter: opacity(1);
+  }
+
+}
+
+@keyframes chocolate-drop {
+
+  0% {
+    bottom: 0%;
+    filter: opacity(0);
+  }
+
+  100% {
+    bottom: -335px;
+    filter: opacity(1);
+  }
+
+}
+
+@keyframes mint-drop {
+
+  0% {
+    bottom: 0%;
+    filter: opacity(0);
+  }
+
+  100% {
+    bottom: -423px;
+    filter: opacity(1);
+  }
+
+}
+
+@keyframes cone-drop {
+
+  0% {
+    bottom: 0%;
   }
 
   100% {
