@@ -42,26 +42,6 @@ p {
   padding-left: 6%;
 }
 
-.cherry {
-
-}
-
-.mint-chip {
-
-}
-
-.chocolate.chip {
-
-}
-
-.vanilla-fudge {
-
-}
-
-.cone {
-
-}
-
 @keyframes text {
 
   0% {
@@ -81,4 +61,42 @@ p {
     filter: opacity(1);
   }
 
+}
+
+.cherry {
+  bottom: -180px;
+  right: 54px;
+  transform: scale(.7);
+  z-index: 3;
+  animation: ;
+}
+
+.mint-chip {
+  bottom: -375px;
+  right: 54px;
+  transform: scale(.7);
+  animation: ;
+}
+
+.chocolate-chip {
+  bottom: -300px;
+  right: 54px;
+  transform: scale(.7);
+  z-index: 1;
+  animation: ;
+}
+
+.vanilla-fudge {
+  bottom: -235px;
+  right: 54px;
+  transform: scale(.7);
+  z-index: 2;
+  animation: ;
+}
+
+.cone {
+  bottom: -475px;
+  right: 54px;
+  transform: scale(.7);
+  animation: ;
 }
