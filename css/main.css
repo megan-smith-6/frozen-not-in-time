@@ -100,7 +100,17 @@ p {
   bottom: -525px;
   right: 35px;
   transform: scale(.7);
-  animation: ;
+  animation: cone-drop 500ms forwards linear;
 }
 
-@keyframes  {
+@keyframes  cone-drop {
+
+  0% {
+    bottom: 100%;
+  }
+
+  100% {
+    bottom: -525px;
+  }
+
+}
