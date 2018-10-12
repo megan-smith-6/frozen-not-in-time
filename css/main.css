@@ -4,6 +4,8 @@ html {
 
 main {
   background: repeating-linear-gradient(-38deg, #b3fbff, #c9fcff 20px, #d4fdff 20px);
+  min-height: 500px;
+  max-height: 500px;
 }
 
 .tagline {
@@ -27,7 +29,7 @@ p, a{
 }
 
 p {
-  transform: rotate(-4deg);
+  transform: rotate(-6deg);
 }
 
 .btn-ghost {
@@ -64,39 +66,41 @@ p {
 }
 
 .cherry {
-  bottom: -180px;
-  right: 54px;
+  bottom: -183px;
+  right: 35px;
   transform: scale(.7);
   z-index: 3;
   animation: ;
 }
 
-.mint-chip {
-  bottom: -375px;
-  right: 54px;
-  transform: scale(.7);
-  animation: ;
-}
-
-.chocolate-chip {
-  bottom: -300px;
-  right: 54px;
-  transform: scale(.7);
-  z-index: 1;
-  animation: ;
-}
-
 .vanilla-fudge {
-  bottom: -235px;
-  right: 54px;
+  bottom: -262px;
+  right: 38px;
   transform: scale(.7);
   z-index: 2;
   animation: ;
 }
 
-.cone {
-  bottom: -475px;
-  right: 54px;
+.chocolate-chip {
+  bottom: -335px;
+  right: 28px;
+  transform: scale(.7);
+  z-index: 1;
+  animation: ;
+}
+
+.mint-chip {
+  bottom: -423px;
+  right: 35px;
   transform: scale(.7);
   animation: ;
 }
+
+.cone {
+  bottom: -525px;
+  right: 35px;
+  transform: scale(.7);
+  animation: ;
+}
+
+@keyframes  {
