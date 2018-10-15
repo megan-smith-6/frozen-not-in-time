@@ -68,21 +68,21 @@ p {
 }
 
 .cone {
-  bottom: -525px;
+  bottom: 100%;
   right: 35px;
   transform: scale(.7);
   animation: cone-drop 500ms forwards linear;
 }
 
 .mint-chip {
-  bottom: -423px;
+  bottom: 100%;
   right: 35px;
   transform: scale(.7);
   animation: mint-drop 500ms forwards linear 500ms;
 }
 
 .chocolate-chip {
-  bottom: -335px;
+  bottom: 100%;
   right: 28px;
   transform: scale(.7);
   z-index: 1;
@@ -90,7 +90,7 @@ p {
 }
 
 .vanilla-fudge {
-  bottom: -262px;
+  bottom: 100%;
   right: 38px;
   transform: scale(.7);
   z-index: 2;
@@ -98,7 +98,7 @@ p {
 }
 
 .cherry {
-  bottom: -183px;
+  bottom: 100%;
   right: 35px;
   transform: scale(.7);
   z-index: 3;
@@ -108,7 +108,7 @@ p {
 @keyframes cherry-drop {
 
   0% {
-    bottom: 0%;
+    bottom: 100%;
     filter: opacity(0);
   }
 
@@ -122,7 +122,7 @@ p {
 @keyframes vanilla-drop {
 
   0% {
-    bottom: 0%;
+    bottom: 100%;
     filter: opacity(0);
   }
 
@@ -136,7 +136,7 @@ p {
 @keyframes chocolate-drop {
 
   0% {
-    bottom: 0%;
+    bottom: 100%;
     filter: opacity(0);
   }
 
@@ -150,7 +150,7 @@ p {
 @keyframes mint-drop {
 
   0% {
-    bottom: 0%;
+    bottom: 100%;
     filter: opacity(0);
   }
 
@@ -164,7 +164,7 @@ p {
 @keyframes cone-drop {
 
   0% {
-    bottom: 0%;
+    bottom: 100%;
   }
 
   100% {
